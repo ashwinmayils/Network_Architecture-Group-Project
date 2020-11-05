@@ -1,0 +1,418 @@
+// Network Architecture Group Project 2020 - u3190029 & u3191010
+
+{
+  "type": "NetworkGraph",
+  "protocol": "",
+  "version": "",
+  "metric": "tq",
+  "timestamp": "2020-11-05T05:15:07",
+  "directed": false,
+  "multigraph": false,
+  "links": [
+    {
+      "source": "19:56:1b:36:f6:b8",
+      "target": "da:1a:5d:44:3f:f3",
+      "cost": 1
+    },
+    {
+      "source": "19:56:1b:36:f6:b8",
+      "target": "41:8d:7e:ac:ad:65",
+      "cost": 1
+    },
+    {
+      "source": "19:56:1b:36:f6:b8",
+      "target": "d5:e5:ad:ac:fe:87",
+      "cost": 1
+    },
+    {
+      "source": "41:8d:7e:ac:ad:65",
+      "target": "d5:e5:ad:ac:fe:87",
+      "cost": 1
+    },
+    {
+      "source": "41:8d:7e:ac:ad:65",
+      "target": "da:1a:5d:44:3f:f3",
+      "cost": 1
+    },
+    {
+      "source": "d5:e5:ad:ac:fe:87",
+      "target": "95:d5:0d:61:cd:2b",
+      "cost": 1
+    },
+    {
+      "source": "d5:e5:ad:ac:fe:87",
+      "target": "da:1a:5d:44:3f:f3",
+      "cost": 1
+    },
+    {
+      "source": "d5:e5:ad:ac:fe:87",
+      "target": "7c:40:46:ce:95:29",
+      "cost": 1
+    },
+    {
+      "source": "da:1a:5d:44:3f:f3",
+      "target": "7c:40:46:ce:95:29",
+      "cost": 1
+    },
+    {
+      "source": "da:1a:5d:44:3f:f3",
+      "target": "95:d5:0d:61:cd:2b",
+      "cost": 1
+    },
+    {
+      "source": "7c:40:46:ce:95:29",
+      "target": "95:d5:0d:61:cd:2b",
+      "cost": 1
+    },
+    {
+      "source": "19:56:1b:36:f6:b8",
+      "target": "7c:40:46:ce:95:29",
+      "cost": 1
+    },
+    {
+      "source": "19:56:1b:36:f6:b8",
+      "target": "95:d5:0d:61:cd:2b",
+      "cost": 1
+    },
+    {
+      "source": "41:8d:7e:ac:ad:65",
+      "target": "7c:40:46:ce:95:29",
+      "cost": 1
+    },
+    {
+      "source": "41:8d:7e:ac:ad:65",
+      "target": "95:d5:0d:61:cd:2b",
+      "cost": 1
+    },
+    {
+      "source": "b4:1f:3d:c2:25:49",
+      "target": "26:18:a1:8a:5a:38",
+      "cost": 1
+    },
+    {
+      "source": "b4:1f:3d:c2:25:49",
+      "target": "3d:1f:c4:bb:9a:2e",
+      "cost": 1
+    },
+    {
+      "source": "b4:1f:3d:c2:25:49",
+      "target": "a4:19:6c:1f:8f:04",
+      "cost": 1
+    },
+    {
+      "source": "3d:1f:c4:bb:9a:2e",
+      "target": "a4:19:6c:1f:8f:04",
+      "cost": 1
+    },
+    {
+      "source": "3d:1f:c4:bb:9a:2e",
+      "target": "26:18:a1:8a:5a:38",
+      "cost": 1
+    },
+    {
+      "source": "a4:19:6c:1f:8f:04",
+      "target": "cb:7e:a4:39:1d:07",
+      "cost": 1
+    },
+    {
+      "source": "a4:19:6c:1f:8f:04",
+      "target": "26:18:a1:8a:5a:38",
+      "cost": 1
+    },
+    {
+      "source": "a4:19:6c:1f:8f:04",
+      "target": "be:af:94:d8:92:aa",
+      "cost": 1
+    },
+    {
+      "source": "26:18:a1:8a:5a:38",
+      "target": "be:af:94:d8:92:aa",
+      "cost": 1
+    },
+    {
+      "source": "26:18:a1:8a:5a:38",
+      "target": "cb:7e:a4:39:1d:07",
+      "cost": 1
+    },
+    {
+      "source": "be:af:94:d8:92:aa",
+      "target": "cb:7e:a4:39:1d:07",
+      "cost": 1
+    },
+    {
+      "source": "b4:1f:3d:c2:25:49",
+      "target": "be:af:94:d8:92:aa",
+      "cost": 1
+    },
+    {
+      "source": "b4:1f:3d:c2:25:49",
+      "target": "cb:7e:a4:39:1d:07",
+      "cost": 1
+    },
+    {
+      "source": "3d:1f:c4:bb:9a:2e",
+      "target": "be:af:94:d8:92:aa",
+      "cost": 1
+    },
+    {
+      "source": "3d:1f:c4:bb:9a:2e",
+      "target": "cb:7e:a4:39:1d:07",
+      "cost": 1
+    },
+    {
+      "source": "de:01:9c:bb:5a:d4",
+      "target": "49:ee:22:ef:9a:43",
+      "cost": 1
+    },
+    {
+      "source": "de:01:9c:bb:5a:d4",
+      "target": "3d:ca:be:d0:17:9f",
+      "cost": 1
+    },
+    {
+      "source": "49:ee:22:ef:9a:43",
+      "target": "d5:4f:ac:cf:fc:57",
+      "cost": 1
+    },
+    {
+      "source": "3d:ca:be:d0:17:9f",
+      "target": "d5:4f:ac:cf:fc:57",
+      "cost": 1
+    },
+    {
+      "source": "3d:ca:be:d0:17:9f",
+      "target": "b4:92:24:eb:57:3c",
+      "cost": 1
+    },
+    {
+      "source": "d5:4f:ac:cf:fc:57",
+      "target": "b2:55:c3:ec:27:71",
+      "cost": 1
+    },
+    {
+      "source": "b4:92:24:eb:57:3c",
+      "target": "b2:55:c3:ec:27:71",
+      "cost": 1
+    },
+    {
+      "source": "de:01:9c:bb:5a:d4",
+      "target": "d5:4f:ac:cf:fc:57",
+      "cost": 1
+    },
+    {
+      "source": "de:01:9c:bb:5a:d4",
+      "target": "b4:92:24:eb:57:3c",
+      "cost": 1
+    },
+    {
+      "source": "de:01:9c:bb:5a:d4",
+      "target": "b2:55:c3:ec:27:71",
+      "cost": 1
+    },
+    {
+      "source": "49:ee:22:ef:9a:43",
+      "target": "3d:ca:be:d0:17:9f",
+      "cost": 1
+    },
+    {
+      "source": "49:ee:22:ef:9a:43",
+      "target": "b4:92:24:eb:57:3c",
+      "cost": 1
+    },
+    {
+      "source": "49:ee:22:ef:9a:43",
+      "target": "b2:55:c3:ec:27:71",
+      "cost": 1
+    },
+    {
+      "source": "3d:ca:be:d0:17:9f",
+      "target": "b2:55:c3:ec:27:71",
+      "cost": 1
+    },
+    {
+      "source": "d5:4f:ac:cf:fc:57",
+      "target": "b4:92:24:eb:57:3c",
+      "cost": 1
+    },
+    {
+      "source": "da:1a:5d:44:3f:f3",
+      "target": "d5:4f:ac:cf:fc:57",
+      "cost": 1
+    },
+    {
+      "source": "be:af:94:d8:92:aa",
+      "target": "b2:55:c3:ec:27:71",
+      "cost": 1
+    },
+    {
+      "source": "81:f8:0d:71:54:34",
+      "target": "fa:c9:34:3c:c1:32",
+      "cost": 1
+    },
+    {
+      "source": "81:f8:0d:71:54:34",
+      "target": "8c:66:2d:a8:e8:89",
+      "cost": 1
+    },
+    {
+      "source": "81:f8:0d:71:54:34",
+      "target": "12:c4:10:e3:a3:65",
+      "cost": 1
+    },
+    {
+      "source": "81:f8:0d:71:54:34",
+      "target": "09:6b:1f:e8:6d:4b",
+      "cost": 1
+    },
+    {
+      "source": "81:f8:0d:71:54:34",
+      "target": "15:ca:b9:a6:85:07",
+      "cost": 1
+    },
+    {
+      "source": "fa:c9:34:3c:c1:32",
+      "target": "8c:66:2d:a8:e8:89",
+      "cost": 1
+    },
+    {
+      "source": "fa:c9:34:3c:c1:32",
+      "target": "12:c4:10:e3:a3:65",
+      "cost": 1
+    },
+    {
+      "source": "fa:c9:34:3c:c1:32",
+      "target": "09:6b:1f:e8:6d:4b",
+      "cost": 1
+    },
+    {
+      "source": "fa:c9:34:3c:c1:32",
+      "target": "15:ca:b9:a6:85:07",
+      "cost": 1
+    },
+    {
+      "source": "8c:66:2d:a8:e8:89",
+      "target": "12:c4:10:e3:a3:65",
+      "cost": 1
+    },
+    {
+      "source": "8c:66:2d:a8:e8:89",
+      "target": "09:6b:1f:e8:6d:4b",
+      "cost": 1
+    },
+    {
+      "source": "8c:66:2d:a8:e8:89",
+      "target": "15:ca:b9:a6:85:07",
+      "cost": 1
+    },
+    {
+      "source": "12:c4:10:e3:a3:65",
+      "target": "09:6b:1f:e8:6d:4b",
+      "cost": 1
+    },
+    {
+      "source": "12:c4:10:e3:a3:65",
+      "target": "15:ca:b9:a6:85:07",
+      "cost": 1
+    },
+    {
+      "source": "09:6b:1f:e8:6d:4b",
+      "target": "15:ca:b9:a6:85:07",
+      "cost": 1
+    },
+    {
+      "source": "de:01:9c:bb:5a:d4",
+      "target": "81:f8:0d:71:54:34",
+      "cost": 1
+    },
+    {
+      "source": "3d:ca:be:d0:17:9f",
+      "target": "76:a1:d2:48:82:b7",
+      "cost": 1
+    },
+    {
+      "source": "76:a1:d2:48:82:b7",
+      "target": "e7:d9:ab:ed:c8:64",
+      "cost": 1
+    }
+  ],
+  "nodes": [
+    {
+      "id": "19:56:1b:36:f6:b8"
+    },
+    {
+      "id": "41:8d:7e:ac:ad:65"
+    },
+    {
+      "id": "d5:e5:ad:ac:fe:87"
+    },
+    {
+      "id": "da:1a:5d:44:3f:f3"
+    },
+    {
+      "id": "7c:40:46:ce:95:29"
+    },
+    {
+      "id": "95:d5:0d:61:cd:2b"
+    },
+    {
+      "id": "b4:1f:3d:c2:25:49"
+    },
+    {
+      "id": "3d:1f:c4:bb:9a:2e"
+    },
+    {
+      "id": "a4:19:6c:1f:8f:04"
+    },
+    {
+      "id": "26:18:a1:8a:5a:38"
+    },
+    {
+      "id": "be:af:94:d8:92:aa"
+    },
+    {
+      "id": "cb:7e:a4:39:1d:07"
+    },
+    {
+      "id": "de:01:9c:bb:5a:d4"
+    },
+    {
+      "id": "49:ee:22:ef:9a:43"
+    },
+    {
+      "id": "3d:ca:be:d0:17:9f"
+    },
+    {
+      "id": "d5:4f:ac:cf:fc:57"
+    },
+    {
+      "id": "b4:92:24:eb:57:3c"
+    },
+    {
+      "id": "b2:55:c3:ec:27:71"
+    },
+    {
+      "id": "81:f8:0d:71:54:34"
+    },
+    {
+      "id": "fa:c9:34:3c:c1:32"
+    },
+    {
+      "id": "8c:66:2d:a8:e8:89"
+    },
+    {
+      "id": "12:c4:10:e3:a3:65"
+    },
+    {
+      "id": "09:6b:1f:e8:6d:4b"
+    },
+    {
+      "id": "15:ca:b9:a6:85:07"
+    },
+    {
+      "id": "76:a1:d2:48:82:b7"
+    },
+    {
+      "id": "e7:d9:ab:ed:c8:64"
+    }
+  ]
+}
